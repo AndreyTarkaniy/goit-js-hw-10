@@ -32,7 +32,7 @@ body {
 .country-info__wrapper {
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 80 px;
 }
 
 .country-info__img {
