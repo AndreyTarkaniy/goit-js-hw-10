@@ -46,6 +46,5 @@ const handleSearchCountry = event => {
 
 refs.input.addEventListener(
   'input',
-  debounce(handleSearchCountry),
-  DEBOUNCE_DELAY
+  debounce(handleSearchCountry, DEBOUNCE_DELAY)
 );
